@@ -3,7 +3,7 @@ Contains details and codes related to Vibration Analysis and Machine Asset Monit
 This a Web application developed with Plotly Dash to visualize, diagnose and interpret vibration data from a MEMS based sensor. 
 
 # Problem statement
-The Data set provides information on key vibration, temperature and audio from the sensor mounted on a Machine Spindle. The Sesor records data for every 30 mins and the dataset comprises of 642 rows and 13 columns. The Objective of developing this application is to visualize, diagnose and analyze vibrations from the sensor that would help the end user for asset optimization and maintenance activities
+The Data set provides information on key vibration, temperature and audio from the sensor mounted on a Machine Spindle. The Sesor records data for every 30 mins and the dataset comprises of 643 rows and 20 columns. The Objective of developing this application is to visualize, diagnose and analyze vibrations from the sensor that would help the end user for asset optimization and maintenance activities
 
 # Approach
 Since the Application demands a GUI, Plotly Dash was chosen for the Dashboard and Visualization components. The Approach was to give two windows to the User - One to Analyse Vibration parameters which would include setting Specification limits of thresholds across parameters and also setting a required time period to analyze the data. The Second window helps the user in prediction of a parameter trend in the coming days and also diagnose possible faults in the system based on Data Analysis. The Code was constructed with Jupyter Notebook 6.3.0
