@@ -14,3 +14,6 @@ Constructing the Web App involved setting layouts for the different tabs. The Da
 The Analytics tab includes a piechart and linechart created with plotly express. The Piechart shows a summary of the Selected vibration parameter interms of Good, Alert and Danger (bins as received from User specification inputs) and the Line chart shows a trend of selected parameter over the data range specified. The User will be able to hover over the line graph to see individual data points at each timestamp recorded and also be visually able to compare the range of parameter with a color coded background
 
 The Predictions tab includes a dcc.dropdown component that lets the user to select the parameter to predict. A Line graph forecasts the trend of the parameter over the next 3 days. The Prediction is based on ARIMA Models after ensuring stationarity of the data and validation. A textbox displays a message indicating a possible machinery fault based on the data and specification set. An Fault animation is displayed to help the user understand and interpret the likely fault. 
+
+# Running the Code
+Please ensure that the Code and the CSV Data is in the same folder. Install all relevant packages and libraries as given in the Code
