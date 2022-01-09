@@ -17,3 +17,5 @@ The Predictions tab includes a dcc.dropdown component that lets the user to sele
 
 # Running the Code
 Please ensure that the Code and the CSV Data is in the same folder. Install all relevant packages and libraries as given in the Code
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=Ashwath33.Vibration-Analysis)
